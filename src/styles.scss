@@ -1,0 +1,23 @@
+
+$darkAccent: #224b4b;
+$lightAccent: #2cda9d;
+$backgroundBase: #619e9e;
+
+body{
+  background-color: $backgroundBase;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.editor {
+  margin: 1.125rem auto;
+  max-width: 600px;;
+  .toolbar {
+    background-color: $darkAccent;
+    font-family: Russo One;
+    height: 10px;
+  }
+}
